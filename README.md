@@ -1,13 +1,12 @@
-Developer Reference
-Git & GitHub
-Cheat Sheet
+Developer Reference (Source: https://git-sheet.hi-shanto.me)
+
+Git & GitHub Cheat Sheet
+
 A concise, hands-on reference for every Git command — with real examples, GitHub workflow, and recovery techniques all in one place.
 
 $ every command · with examples · explained simply
 
 
-Search commands...
-⌘K
 // What is Git?
 🗂️
 Version Control System
@@ -21,25 +20,25 @@ Multiple developers work on the same project without conflicts.
 ☁️
 GitHub = Cloud + Collaboration
 GitHub hosts your Git repos online. Push code, open PRs, review changes.
+
+
+
 01 — Setup & Initialize
 ⚙️
-Global Config
+Global Config 
 Set your identity once
 
-Set username & email
-?
+Set username & email?
 
 git config --global user.name "John Doe"
 git config --global user.email "john@email.com"
 
-Set default editor & branch name
-?
+Set default editor & branch name?
 
 git config --global core.editor "code"
 git config --global init.defaultBranch main
 
-View all config
-?
+View all config?
 
 git config --list
 
